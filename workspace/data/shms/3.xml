@@ -1,0 +1,559 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<XShm version="1.0" name="SCHEME" isModify="0" showOutVar="1">
+    <LocalVars/>
+    <InVars/>
+    <OutVars/>
+    <Operators>
+        <Operator width="80" operands="0$15ТКБКП8" x="-2131" y="-701" height="30" id="2" comment="" opcode="1" label="1">
+            <OutVars/>
+            <Links>
+                <Link linkId="3" prizn_and_or="1" tab="0"/>
+                <Link linkId="4" prizn_and_or="1" tab="0"/>
+                <Link linkId="5" prizn_and_or="1" tab="0"/>
+            </Links>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (15ТКБКП8 > 35) ТО&#xa;&#x9;СОТР~Система.15ТКБКП8.ВышеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.15ТКБКП8.ВышеНормы = 0$1$15ТКБКП8$1$СОТР~Система.15ТКБКП8.ВышеНормы$[SYS_TIME]$SCHEME&lt;2_CTRL$0" x="-2024" y="-772" height="42" id="3" comment="" opcode="242" label="2">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.15ТКБКП8.ВышеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;2_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (15ТКБКП8 &lt; 5) ТО&#xa;&#x9;СОТР~Система.15ТКБКП8.НижеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.15ТКБКП8.НижеНормы = 0$1$15ТКБКП8$1$СОТР~Система.15ТКБКП8.НижеНормы$[SYS_TIME]$SCHEME&lt;3_CTRL$0" x="-2025" y="-724" height="42" id="4" comment="" opcode="242" label="3">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.15ТКБКП8.НижеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;3_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ ((15ТКБКП8 >= 5) &amp; (15ТКБКП8 &lt;= 35)) ТО&#xa;&#x9;СОТР~Система.15ТКБКП8.Норма = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.15ТКБКП8.Норма = 0$1$15ТКБКП8$1$СОТР~Система.15ТКБКП8.Норма$[SYS_TIME]$SCHEME&lt;4_CTRL$0" x="-2024" y="-678" height="42" id="5" comment="" opcode="242" label="4">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.15ТКБКП8.Норма"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;4_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="0$15ТРПТ10" x="-2132" y="-540" height="30" id="7" comment="" opcode="1" label="6">
+            <OutVars/>
+            <Links>
+                <Link linkId="8" prizn_and_or="1" tab="0"/>
+                <Link linkId="9" prizn_and_or="1" tab="0"/>
+                <Link linkId="10" prizn_and_or="1" tab="0"/>
+            </Links>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (15ТРПТ10 > 60) ТО&#xa;&#x9;СОТР~Система.15ТРПТ10.ВышеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.15ТРПТ10.ВышеНормы = 0$1$15ТРПТ10$1$СОТР~Система.15ТРПТ10.ВышеНормы$[SYS_TIME]$SCHEME&lt;7_CTRL$0" x="-2026" y="-611" height="42" id="8" comment="" opcode="242" label="7">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.15ТРПТ10.ВышеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;7_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (15ТРПТ10 &lt; 5) ТО&#xa;&#x9;СОТР~Система.15ТРПТ10.НижеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.15ТРПТ10.НижеНормы = 0$1$15ТРПТ10$1$СОТР~Система.15ТРПТ10.НижеНормы$[SYS_TIME]$SCHEME&lt;8_CTRL$0" x="-2027" y="-563" height="42" id="9" comment="" opcode="242" label="8">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.15ТРПТ10.НижеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;8_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ ((15ТРПТ10 >= 5) &amp; (15ТРПТ10 &lt;= 60)) ТО&#xa;&#x9;СОТР~Система.15ТРПТ10.Норма = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.15ТРПТ10.Норма = 0$1$15ТРПТ10$1$СОТР~Система.15ТРПТ10.Норма$[SYS_TIME]$SCHEME&lt;9_CTRL$0" x="-2026" y="-518" height="42" id="10" comment="" opcode="242" label="9">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.15ТРПТ10.Норма"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;9_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="0$15ТРПТ9" x="-2134" y="-375" height="30" id="12" comment="" opcode="1" label="11">
+            <OutVars/>
+            <Links>
+                <Link linkId="13" prizn_and_or="1" tab="0"/>
+                <Link linkId="14" prizn_and_or="1" tab="0"/>
+                <Link linkId="15" prizn_and_or="1" tab="0"/>
+            </Links>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (15ТРПТ9 > 60) ТО&#xa;&#x9;СОТР~Система.15ТРПТ9.ВышеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.15ТРПТ9.ВышеНормы = 0$1$15ТРПТ9$1$СОТР~Система.15ТРПТ9.ВышеНормы$[SYS_TIME]$SCHEME&lt;12_CTRL$0" x="-2028" y="-446" height="42" id="13" comment="" opcode="242" label="12">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.15ТРПТ9.ВышеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;12_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (15ТРПТ9 &lt; 5) ТО&#xa;&#x9;СОТР~Система.15ТРПТ9.НижеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.15ТРПТ9.НижеНормы = 0$1$15ТРПТ9$1$СОТР~Система.15ТРПТ9.НижеНормы$[SYS_TIME]$SCHEME&lt;13_CTRL$0" x="-2029" y="-399" height="42" id="14" comment="" opcode="242" label="13">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.15ТРПТ9.НижеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;13_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ ((15ТРПТ9 >= 5) &amp; (15ТРПТ9 &lt;= 60)) ТО&#xa;&#x9;СОТР~Система.15ТРПТ9.Норма = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.15ТРПТ9.Норма = 0$1$15ТРПТ9$1$СОТР~Система.15ТРПТ9.Норма$[SYS_TIME]$SCHEME&lt;14_CTRL$0" x="-2028" y="-352" height="42" id="15" comment="" opcode="242" label="14">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.15ТРПТ9.Норма"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;14_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="0$15ТТГС3" x="-1929" y="-700" height="30" id="17" comment="" opcode="1" label="16">
+            <OutVars/>
+            <Links>
+                <Link linkId="18" prizn_and_or="1" tab="0"/>
+                <Link linkId="19" prizn_and_or="1" tab="0"/>
+                <Link linkId="20" prizn_and_or="1" tab="0"/>
+            </Links>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (15ТТГС3 > 35) ТО&#xa;&#x9;СОТР~Система.15ТТГС3.ВышеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.15ТТГС3.ВышеНормы = 0$1$15ТТГС3$1$СОТР~Система.15ТТГС3.ВышеНормы$[SYS_TIME]$SCHEME&lt;17_CTRL$0" x="-1823" y="-771" height="42" id="18" comment="" opcode="242" label="17">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.15ТТГС3.ВышеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;17_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (15ТТГС3 &lt; 5) ТО&#xa;&#x9;СОТР~Система.15ТТГС3.НижеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.15ТТГС3.НижеНормы = 0$1$15ТТГС3$1$СОТР~Система.15ТТГС3.НижеНормы$[SYS_TIME]$SCHEME&lt;18_CTRL$0" x="-1824" y="-723" height="42" id="19" comment="" opcode="242" label="18">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.15ТТГС3.НижеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;18_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ ((15ТТГС3 >= 5) &amp; (15ТТГС3 &lt;= 35)) ТО&#xa;&#x9;СОТР~Система.15ТТГС3.Норма = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.15ТТГС3.Норма = 0$1$15ТТГС3$1$СОТР~Система.15ТТГС3.Норма$[SYS_TIME]$SCHEME&lt;19_CTRL$0" x="-1824" y="-676" height="42" id="20" comment="" opcode="242" label="19">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.15ТТГС3.Норма"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;19_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="0$15ТТП7" x="-1932" y="-543" height="30" id="22" comment="" opcode="1" label="21">
+            <OutVars/>
+            <Links>
+                <Link linkId="23" prizn_and_or="1" tab="0"/>
+                <Link linkId="24" prizn_and_or="1" tab="0"/>
+                <Link linkId="25" prizn_and_or="1" tab="0"/>
+            </Links>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (15ТТП7 > 35) ТО&#xa;&#x9;СОТР~Система.15ТТП7.ВышеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.15ТТП7.ВышеНормы = 0$1$15ТТП7$1$СОТР~Система.15ТТП7.ВышеНормы$[SYS_TIME]$SCHEME&lt;22_CTRL$0" x="-1826" y="-614" height="42" id="23" comment="" opcode="242" label="22">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.15ТТП7.ВышеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;22_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (15ТТП7 &lt; 5) ТО&#xa;&#x9;СОТР~Система.15ТТП7.НижеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.15ТТП7.НижеНормы = 0$1$15ТТП7$1$СОТР~Система.15ТТП7.НижеНормы$[SYS_TIME]$SCHEME&lt;23_CTRL$0" x="-1827" y="-566" height="42" id="24" comment="" opcode="242" label="23">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.15ТТП7.НижеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;23_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ ((15ТТП7 >= 5) &amp; (15ТТП7 &lt;= 35)) ТО&#xa;&#x9;СОТР~Система.15ТТП7.Норма = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.15ТТП7.Норма = 0$1$15ТТП7$1$СОТР~Система.15ТТП7.Норма$[SYS_TIME]$SCHEME&lt;24_CTRL$0" x="-1826" y="-520" height="42" id="25" comment="" opcode="242" label="24">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.15ТТП7.Норма"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;24_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="0$15ТТФУЛ5" x="-1934" y="-387" height="30" id="27" comment="" opcode="1" label="26">
+            <OutVars/>
+            <Links>
+                <Link linkId="28" prizn_and_or="1" tab="0"/>
+                <Link linkId="29" prizn_and_or="1" tab="0"/>
+                <Link linkId="30" prizn_and_or="1" tab="0"/>
+            </Links>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (15ТТФУЛ5 > 35) ТО&#xa;&#x9;СОТР~Система.15ТТФУЛ5.ВышеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.15ТТФУЛ5.ВышеНормы = 0$1$15ТТФУЛ5$1$СОТР~Система.15ТТФУЛ5.ВышеНормы$[SYS_TIME]$SCHEME&lt;27_CTRL$0" x="-1828" y="-458" height="42" id="28" comment="" opcode="242" label="27">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.15ТТФУЛ5.ВышеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;27_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (15ТТФУЛ5 &lt; 5) ТО&#xa;&#x9;СОТР~Система.15ТТФУЛ5.НижеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.15ТТФУЛ5.НижеНормы = 0$1$15ТТФУЛ5$1$СОТР~Система.15ТТФУЛ5.НижеНормы$[SYS_TIME]$SCHEME&lt;28_CTRL$0" x="-1829" y="-410" height="42" id="29" comment="" opcode="242" label="28">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.15ТТФУЛ5.НижеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;28_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ ((15ТТФУЛ5 >= 5) &amp; (15ТТФУЛ5 &lt;= 35)) ТО&#xa;&#x9;СОТР~Система.15ТТФУЛ5.Норма = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.15ТТФУЛ5.Норма = 0$1$15ТТФУЛ5$1$СОТР~Система.15ТТФУЛ5.Норма$[SYS_TIME]$SCHEME&lt;29_CTRL$0" x="-1828" y="-364" height="42" id="30" comment="" opcode="242" label="29">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.15ТТФУЛ5.Норма"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;29_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="0$15ТТФУЛ6" x="-1723" y="-702" height="30" id="32" comment="" opcode="1" label="31">
+            <OutVars/>
+            <Links>
+                <Link linkId="33" prizn_and_or="1" tab="0"/>
+                <Link linkId="34" prizn_and_or="1" tab="0"/>
+                <Link linkId="35" prizn_and_or="1" tab="0"/>
+            </Links>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (15ТТФУЛ6 > 35) ТО&#xa;&#x9;СОТР~Система.15ТТФУЛ6.ВышеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.15ТТФУЛ6.ВышеНормы = 0$1$15ТТФУЛ6$1$СОТР~Система.15ТТФУЛ6.ВышеНормы$[SYS_TIME]$SCHEME&lt;32_CTRL$0" x="-1617" y="-773" height="42" id="33" comment="" opcode="242" label="32">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.15ТТФУЛ6.ВышеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;32_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (15ТТФУЛ6 &lt; 5) ТО&#xa;&#x9;СОТР~Система.15ТТФУЛ6.НижеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.15ТТФУЛ6.НижеНормы = 0$1$15ТТФУЛ6$1$СОТР~Система.15ТТФУЛ6.НижеНормы$[SYS_TIME]$SCHEME&lt;33_CTRL$0" x="-1618" y="-725" height="42" id="34" comment="" opcode="242" label="33">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.15ТТФУЛ6.НижеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;33_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ ((15ТТФУЛ6 >= 5) &amp; (15ТТФУЛ6 &lt;= 35)) ТО&#xa;&#x9;СОТР~Система.15ТТФУЛ6.Норма = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.15ТТФУЛ6.Норма = 0$1$15ТТФУЛ6$1$СОТР~Система.15ТТФУЛ6.Норма$[SYS_TIME]$SCHEME&lt;34_CTRL$0" x="-1617" y="-679" height="42" id="35" comment="" opcode="242" label="34">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.15ТТФУЛ6.Норма"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;34_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="0$15ТТЭП4" x="-1725" y="-550" height="30" id="37" comment="" opcode="1" label="36">
+            <OutVars/>
+            <Links>
+                <Link linkId="38" prizn_and_or="1" tab="0"/>
+                <Link linkId="39" prizn_and_or="1" tab="0"/>
+                <Link linkId="40" prizn_and_or="1" tab="0"/>
+            </Links>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (15ТТЭП4 > 35) ТО&#xa;&#x9;СОТР~Система.15ТТЭП4.ВышеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.15ТТЭП4.ВышеНормы = 0$1$15ТТЭП4$1$СОТР~Система.15ТТЭП4.ВышеНормы$[SYS_TIME]$SCHEME&lt;37_CTRL$0" x="-1619" y="-621" height="42" id="38" comment="" opcode="242" label="37">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.15ТТЭП4.ВышеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;37_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (15ТТЭП4 &lt; 5) ТО&#xa;&#x9;СОТР~Система.15ТТЭП4.НижеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.15ТТЭП4.НижеНормы = 0$1$15ТТЭП4$1$СОТР~Система.15ТТЭП4.НижеНормы$[SYS_TIME]$SCHEME&lt;38_CTRL$0" x="-1620" y="-573" height="42" id="39" comment="" opcode="242" label="38">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.15ТТЭП4.НижеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;38_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ ((15ТТЭП4 >= 5) &amp; (15ТТЭП4 &lt;= 35)) ТО&#xa;&#x9;СОТР~Система.15ТТЭП4.Норма = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.15ТТЭП4.Норма = 0$1$15ТТЭП4$1$СОТР~Система.15ТТЭП4.Норма$[SYS_TIME]$SCHEME&lt;39_CTRL$0" x="-1619" y="-527" height="42" id="40" comment="" opcode="242" label="39">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.15ТТЭП4.Норма"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;39_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="0$31ТСОТР" x="-1728" y="-394" height="30" id="42" comment="" opcode="1" label="41">
+            <OutVars/>
+            <Links>
+                <Link linkId="43" prizn_and_or="1" tab="0"/>
+                <Link linkId="44" prizn_and_or="1" tab="0"/>
+                <Link linkId="45" prizn_and_or="1" tab="0"/>
+            </Links>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (31ТСОТР > 40) ТО&#xa;&#x9;СОТР~Система.31ТСОТР.ВышеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.31ТСОТР.ВышеНормы = 0$1$31ТСОТР$1$СОТР~Система.31ТСОТР.ВышеНормы$[SYS_TIME]$SCHEME&lt;42_CTRL$0" x="-1622" y="-465" height="42" id="43" comment="" opcode="242" label="42">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.31ТСОТР.ВышеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;42_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (31ТСОТР &lt; 0) ТО&#xa;&#x9;СОТР~Система.31ТСОТР.НижеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.31ТСОТР.НижеНормы = 0$1$31ТСОТР$1$СОТР~Система.31ТСОТР.НижеНормы$[SYS_TIME]$SCHEME&lt;43_CTRL$0" x="-1623" y="-417" height="42" id="44" comment="" opcode="242" label="43">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.31ТСОТР.НижеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;43_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ ((31ТСОТР >= 0) &amp; (31ТСОТР &lt;= 40)) ТО&#xa;&#x9;СОТР~Система.31ТСОТР.Норма = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.31ТСОТР.Норма = 0$1$31ТСОТР$1$СОТР~Система.31ТСОТР.Норма$[SYS_TIME]$SCHEME&lt;44_CTRL$0" x="-1622" y="-371" height="42" id="45" comment="" opcode="242" label="44">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.31ТСОТР.Норма"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;44_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="0$51ТТГС5" x="-1491" y="-707" height="30" id="1" comment="" opcode="1" label="5">
+            <OutVars/>
+            <Links>
+                <Link linkId="6" prizn_and_or="1" tab="0"/>
+                <Link linkId="11" prizn_and_or="1" tab="0"/>
+                <Link linkId="16" prizn_and_or="1" tab="0"/>
+            </Links>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (51ТТГС5 > 40) ТО&#xa;&#x9;СОТР~Система.51ТТГС5.ВышеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51ТТГС5.ВышеНормы = 0$1$51ТТГС5$1$СОТР~Система.51ТТГС5.ВышеНормы$[SYS_TIME]$SCHEME&lt;10_CTRL$0" x="-1385" y="-778" height="42" id="6" comment="" opcode="242" label="10">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51ТТГС5.ВышеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;10_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (51ТТГС5 &lt; 0) ТО&#xa;&#x9;СОТР~Система.51ТТГС5.НижеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51ТТГС5.НижеНормы = 0$1$51ТТГС5$1$СОТР~Система.51ТТГС5.НижеНормы$[SYS_TIME]$SCHEME&lt;15_CTRL$0" x="-1386" y="-730" height="42" id="11" comment="" opcode="242" label="15">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51ТТГС5.НижеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;15_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ ((51ТТГС5 >= 0) &amp; (51ТТГС5 &lt;= 40)) ТО&#xa;&#x9;СОТР~Система.51ТТГС5.Норма = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51ТТГС5.Норма = 0$1$51ТТГС5$1$СОТР~Система.51ТТГС5.Норма$[SYS_TIME]$SCHEME&lt;20_CTRL$0" x="-1384" y="-684" height="42" id="16" comment="" opcode="242" label="20">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51ТТГС5.Норма"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;20_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="0$51ДД1" x="-1494" y="-547" height="30" id="21" comment="" opcode="1" label="25">
+            <OutVars/>
+            <Links>
+                <Link linkId="26" prizn_and_or="1" tab="0"/>
+                <Link linkId="31" prizn_and_or="1" tab="0"/>
+                <Link linkId="36" prizn_and_or="1" tab="0"/>
+            </Links>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (51ДД1 > 2007) ТО&#xa;&#x9;СОТР~Система.51ДД1.ВышеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51ДД1.ВышеНормы = 0$1$51ДД1$1$СОТР~Система.51ДД1.ВышеНормы$[SYS_TIME]$SCHEME&lt;30_CTRL$0" x="-1387" y="-617" height="42" id="26" comment="" opcode="242" label="30">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51ДД1.ВышеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;30_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (51ДД1 &lt; 0) ТО&#xa;&#x9;СОТР~Система.51ДД1.НижеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51ДД1.НижеНормы = 0$1$51ДД1$1$СОТР~Система.51ДД1.НижеНормы$[SYS_TIME]$SCHEME&lt;35_CTRL$0" x="-1388" y="-570" height="42" id="31" comment="" opcode="242" label="35">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51ДД1.НижеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;35_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ ((51ДД1 >= 0) &amp; (51ДД1 &lt;= 2007)) ТО&#xa;&#x9;СОТР~Система.51ДД1.Норма = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51ДД1.Норма = 0$1$51ДД1$1$СОТР~Система.51ДД1.Норма$[SYS_TIME]$SCHEME&lt;40_CTRL$0" x="-1387" y="-523" height="42" id="36" comment="" opcode="242" label="40">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51ДД1.Норма"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;40_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="0$51ДП2" x="-1495" y="-381" height="30" id="41" comment="" opcode="1" label="45">
+            <OutVars/>
+            <Links>
+                <Link linkId="46" prizn_and_or="1" tab="0"/>
+                <Link linkId="47" prizn_and_or="1" tab="0"/>
+                <Link linkId="48" prizn_and_or="1" tab="0"/>
+            </Links>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (51ДП2 > 1) ТО&#xa;&#x9;СОТР~Система.51ДП2.ВышеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51ДП2.ВышеНормы = 0$1$51ДП2$1$СОТР~Система.51ДП2.ВышеНормы$[SYS_TIME]$SCHEME&lt;46_CTRL$0" x="-1389" y="-452" height="42" id="46" comment="" opcode="242" label="46">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51ДП2.ВышеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;46_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (51ДП2 &lt; 0) ТО&#xa;&#x9;СОТР~Система.51ДП2.НижеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51ДП2.НижеНормы = 0$1$51ДП2$1$СОТР~Система.51ДП2.НижеНормы$[SYS_TIME]$SCHEME&lt;47_CTRL$0" x="-1390" y="-404" height="42" id="47" comment="" opcode="242" label="47">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51ДП2.НижеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;47_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ ((51ДП2 >= 0) &amp; (51ДП2 &lt;= 1)) ТО&#xa;&#x9;СОТР~Система.51ДП2.Норма = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51ДП2.Норма = 0$1$51ДП2$1$СОТР~Система.51ДП2.Норма$[SYS_TIME]$SCHEME&lt;48_CTRL$0" x="-1389" y="-358" height="42" id="48" comment="" opcode="242" label="48">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51ДП2.Норма"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;48_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="0$51Т1ТП6" x="-1290" y="-706" height="30" id="49" comment="" opcode="1" label="49">
+            <OutVars/>
+            <Links>
+                <Link linkId="50" prizn_and_or="1" tab="0"/>
+                <Link linkId="51" prizn_and_or="1" tab="0"/>
+                <Link linkId="52" prizn_and_or="1" tab="0"/>
+            </Links>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (51Т1ТП6 > 0) ТО&#xa;&#x9;СОТР~Система.51Т1ТП6.ВышеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51Т1ТП6.ВышеНормы = 0$1$51Т1ТП6$1$СОТР~Система.51Т1ТП6.ВышеНормы$[SYS_TIME]$SCHEME&lt;50_CTRL$0" x="-1184" y="-777" height="42" id="50" comment="" opcode="242" label="50">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51Т1ТП6.ВышеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;50_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (51Т1ТП6 &lt; 40) ТО&#xa;&#x9;СОТР~Система.51Т1ТП6.НижеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51Т1ТП6.НижеНормы = 0$1$51Т1ТП6$1$СОТР~Система.51Т1ТП6.НижеНормы$[SYS_TIME]$SCHEME&lt;51_CTRL$0" x="-1185" y="-729" height="42" id="51" comment="" opcode="242" label="51">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51Т1ТП6.НижеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;51_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ ((51Т1ТП6 >= 0) &amp; (51Т1ТП6 &lt;= 40)) ТО&#xa;&#x9;СОТР~Система.51Т1ТП6.Норма = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51Т1ТП6.Норма = 0$1$51Т1ТП6$1$СОТР~Система.51Т1ТП6.Норма$[SYS_TIME]$SCHEME&lt;52_CTRL$0" x="-1184" y="-683" height="42" id="52" comment="" opcode="242" label="52">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51Т1ТП6.Норма"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;52_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="0$51Т2ТП7" x="-1288" y="-556" height="30" id="53" comment="" opcode="1" label="53">
+            <OutVars/>
+            <Links>
+                <Link linkId="54" prizn_and_or="1" tab="0"/>
+                <Link linkId="55" prizn_and_or="1" tab="0"/>
+                <Link linkId="56" prizn_and_or="1" tab="0"/>
+            </Links>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (51Т2ТП7 > 40) ТО&#xa;&#x9;СОТР~Система.51Т2ТП7.ВышеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51Т2ТП7.ВышеНормы = 0$1$51Т2ТП7$1$СОТР~Система.51Т2ТП7.ВышеНормы$[SYS_TIME]$SCHEME&lt;54_CTRL$0" x="-1183" y="-626" height="42" id="54" comment="" opcode="242" label="54">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51Т2ТП7.ВышеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;54_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (51Т2ТП7 &lt; 40) ТО&#xa;&#x9;СОТР~Система.51Т2ТП7.НижеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51Т2ТП7.НижеНормы = 0$1$51Т2ТП7$1$СОТР~Система.51Т2ТП7.НижеНормы$[SYS_TIME]$SCHEME&lt;55_CTRL$0" x="-1185" y="-577" height="42" id="55" comment="" opcode="242" label="55">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51Т2ТП7.НижеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;55_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ ((51Т2ТП7 >= 0) &amp; (51Т2ТП7 &lt;= 40)) ТО&#xa;&#x9;СОТР~Система.51Т2ТП7.Норма = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51Т2ТП7.Норма = 0$1$51Т2ТП7$1$СОТР~Система.51Т2ТП7.Норма$[SYS_TIME]$SCHEME&lt;56_CTRL$0" x="-1183" y="-532" height="42" id="56" comment="" opcode="242" label="56">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51Т2ТП7.Норма"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;56_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="0$51ТДТ8" x="-1295" y="-393" height="30" id="57" comment="" opcode="1" label="57">
+            <OutVars/>
+            <Links>
+                <Link linkId="58" prizn_and_or="1" tab="0"/>
+                <Link linkId="59" prizn_and_or="1" tab="0"/>
+                <Link linkId="60" prizn_and_or="1" tab="0"/>
+            </Links>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (51ТДТ8 > 40) ТО&#xa;&#x9;СОТР~Система.51ТДТ8.ВышеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51ТДТ8.ВышеНормы = 0$1$51ТДТ8$1$СОТР~Система.51ТДТ8.ВышеНормы$[SYS_TIME]$SCHEME&lt;58_CTRL$0" x="-1188" y="-464" height="42" id="58" comment="" opcode="242" label="58">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51ТДТ8.ВышеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;58_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (51ТДТ8 &lt; 0) ТО&#xa;&#x9;СОТР~Система.51ТДТ8.НижеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51ТДТ8.НижеНормы = 0$1$51ТДТ8$1$СОТР~Система.51ТДТ8.НижеНормы$[SYS_TIME]$SCHEME&lt;59_CTRL$0" x="-1190" y="-416" height="42" id="59" comment="" opcode="242" label="59">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51ТДТ8.НижеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;59_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ ((51ТДТ8 >= 0) &amp; (51ТДТ8 &lt;= 40)) ТО&#xa;&#x9;СОТР~Система.51ТДТ8.Норма = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51ТДТ8.Норма = 0$1$51ТДТ8$1$СОТР~Система.51ТДТ8.Норма$[SYS_TIME]$SCHEME&lt;60_CTRL$0" x="-1189" y="-370" height="42" id="60" comment="" opcode="242" label="60">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51ТДТ8.Норма"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;60_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="0$51ТПЭН4" x="-1084" y="-708" height="30" id="61" comment="" opcode="1" label="61">
+            <OutVars/>
+            <Links>
+                <Link linkId="62" prizn_and_or="1" tab="0"/>
+                <Link linkId="63" prizn_and_or="1" tab="0"/>
+                <Link linkId="64" prizn_and_or="1" tab="0"/>
+            </Links>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (51ТПЭН4 > 40) ТО&#xa;&#x9;СОТР~Система.51ТПЭН4.ВышеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51ТПЭН4.ВышеНормы = 0$1$51ТПЭН4$1$СОТР~Система.51ТПЭН4.ВышеНормы$[SYS_TIME]$SCHEME&lt;62_CTRL$0" x="-978" y="-779" height="42" id="62" comment="" opcode="242" label="62">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51ТПЭН4.ВышеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;62_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (51ТПЭН4 &lt; 0) ТО&#xa;&#x9;СОТР~Система.51ТПЭН4.НижеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51ТПЭН4.НижеНормы = 0$1$51ТПЭН4$1$СОТР~Система.51ТПЭН4.НижеНормы$[SYS_TIME]$SCHEME&lt;63_CTRL$0" x="-979" y="-731" height="42" id="63" comment="" opcode="242" label="63">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51ТПЭН4.НижеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;63_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ ((51ТПЭН4 >= 0) &amp; (51ТПЭН4 &lt;= 40)) ТО&#xa;&#x9;СОТР~Система.51ТПЭН4.Норма = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51ТПЭН4.Норма = 0$1$51ТПЭН4$1$СОТР~Система.51ТПЭН4.Норма$[SYS_TIME]$SCHEME&lt;64_CTRL$0" x="-978" y="-685" height="42" id="64" comment="" opcode="242" label="64">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51ТПЭН4.Норма"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;64_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="0$51ТРТО1" x="-1087" y="-555" height="30" id="65" comment="" opcode="1" label="65">
+            <OutVars/>
+            <Links>
+                <Link linkId="66" prizn_and_or="1" tab="0"/>
+                <Link linkId="67" prizn_and_or="1" tab="0"/>
+                <Link linkId="68" prizn_and_or="1" tab="0"/>
+            </Links>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (51ТРТО1 > 40) ТО&#xa;&#x9;СОТР~Система.51ТРТО1.ВышеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51ТРТО1.ВышеНормы = 0$1$51ТРТО1$1$СОТР~Система.51ТРТО1.ВышеНормы$[SYS_TIME]$SCHEME&lt;66_CTRL$0" x="-980" y="-627" height="42" id="66" comment="" opcode="242" label="66">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51ТРТО1.ВышеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;66_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (51ТРТО1 &lt; 0) ТО&#xa;&#x9;СОТР~Система.51ТРТО1.НижеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51ТРТО1.НижеНормы = 0$1$51ТРТО1$1$СОТР~Система.51ТРТО1.НижеНормы$[SYS_TIME]$SCHEME&lt;67_CTRL$0" x="-981" y="-579" height="42" id="67" comment="" opcode="242" label="67">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51ТРТО1.НижеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;67_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ ((51ТРТО1 >= 0) &amp; (51ТРТО1 &lt;= 40)) ТО&#xa;&#x9;СОТР~Система.51ТРТО1.Норма = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51ТРТО1.Норма = 0$1$51ТРТО1$1$СОТР~Система.51ТРТО1.Норма$[SYS_TIME]$SCHEME&lt;68_CTRL$0" x="-981" y="-533" height="42" id="68" comment="" opcode="242" label="68">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51ТРТО1.Норма"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;68_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="0$51ТРТО2" x="-1089" y="-400" height="30" id="69" comment="" opcode="1" label="69">
+            <OutVars/>
+            <Links>
+                <Link linkId="70" prizn_and_or="1" tab="0"/>
+                <Link linkId="71" prizn_and_or="1" tab="0"/>
+                <Link linkId="72" prizn_and_or="1" tab="0"/>
+            </Links>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (51ТРТО2 > 40) ТО&#xa;&#x9;СОТР~Система.51ТРТО2.ВышеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51ТРТО2.ВышеНормы = 0$1$51ТРТО2$1$СОТР~Система.51ТРТО2.ВышеНормы$[SYS_TIME]$SCHEME&lt;70_CTRL$0" x="-983" y="-471" height="42" id="70" comment="" opcode="242" label="70">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51ТРТО2.ВышеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;70_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (51ТРТО2 &lt; 0) ТО&#xa;&#x9;СОТР~Система.51ТРТО2.НижеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51ТРТО2.НижеНормы = 0$1$51ТРТО2$1$СОТР~Система.51ТРТО2.НижеНормы$[SYS_TIME]$SCHEME&lt;71_CTRL$0" x="-984" y="-423" height="42" id="71" comment="" opcode="242" label="71">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51ТРТО2.НижеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;71_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ ((51ТРТО2 >= 0) &amp; (51ТРТО2 &lt;= 40)) ТО&#xa;&#x9;СОТР~Система.51ТРТО2.Норма = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51ТРТО2.Норма = 0$1$51ТРТО2$1$СОТР~Система.51ТРТО2.Норма$[SYS_TIME]$SCHEME&lt;72_CTRL$0" x="-983" y="-377" height="42" id="72" comment="" opcode="242" label="72">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51ТРТО2.Норма"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;72_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="0$51ТСМ3" x="-862" y="-562" height="30" id="73" comment="" opcode="1" label="73">
+            <OutVars/>
+            <Links>
+                <Link linkId="74" prizn_and_or="1" tab="0"/>
+                <Link linkId="75" prizn_and_or="1" tab="0"/>
+                <Link linkId="76" prizn_and_or="1" tab="0"/>
+            </Links>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (51ТСМ3 > 40) ТО&#xa;&#x9;СОТР~Система.51ТСМ3.ВышеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51ТСМ3.ВышеНормы = 0$1$51ТСМ3$1$СОТР~Система.51ТСМ3.ВышеНормы$[SYS_TIME]$SCHEME&lt;74_CTRL$0" x="-756" y="-633" height="42" id="74" comment="" opcode="242" label="74">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51ТСМ3.ВышеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;74_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ (51ТСМ3 &lt; 0) ТО&#xa;&#x9;СОТР~Система.51ТСМ3.НижеНормы = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51ТСМ3.НижеНормы = 0$1$51ТСМ3$1$СОТР~Система.51ТСМ3.НижеНормы$[SYS_TIME]$SCHEME&lt;75_CTRL$0" x="-757" y="-585" height="42" id="75" comment="" opcode="242" label="75">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51ТСМ3.НижеНормы"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;75_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+        <Operator width="80" operands="ЕСЛИ ((51ТСМ3 >= 0) &amp; (51ТСМ3 &lt;= 40)) ТО&#xa;&#x9;СОТР~Система.51ТСМ3.Норма = 1&#xa;ИНАЧЕ &#xa;&#x9;СОТР~Система.51ТСМ3.Норма = 0$1$51ТСМ3$1$СОТР~Система.51ТСМ3.Норма$[SYS_TIME]$SCHEME&lt;76_CTRL$0" x="-756" y="-539" height="42" id="76" comment="" opcode="242" label="76">
+            <OutVars>
+                <OutVar valq="1" indx="0" name="СОТР~Система.51ТСМ3.Норма"/>
+                <OutVar valq="-1" indx="1" name="SCHEME&lt;76_CTRL"/>
+            </OutVars>
+            <Links/>
+        </Operator>
+    </Operators>
+</XShm>

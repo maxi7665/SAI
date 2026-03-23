@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FormInfo version="3.0" X="0" Y="0" isComposable="0" template="form_1" name="form_1">
+    <AccordingMap/>
+    <Object type="13" objID="65119537" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="65743532" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="65800775" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="66925551" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="67106266" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="41215941" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="41250669" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="41281840" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="41300572" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="41309224" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="41729154" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="41750509" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="41778906" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="41825122" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="41943365" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="42060656" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="42294149" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="6" objID="0" name="form_1">
+        <Event code="1024">
+            <oneEvent action="2"/>
+        </Event>
+    </Object>
+    <Object type="4" objID="68909092" name="Поле_вывода">
+        <Attribute codeType="2" code="8" checkAttVal="1">
+            <oneAttribute fLastValue="1" fStatus="0" fPastObj="0" format="%.3f" formatTime="6" ctrlParName="15ТКБКП8" beginIndx="0" fTime="0">
+                <ParToValue parName="15ТКБКП8" fInclude="4" vLeft="0" vRight="0" type="1"/>
+            </oneAttribute>
+        </Attribute>
+    </Object>
+    <Object type="4" objID="68920169" name="Поле_вывода">
+        <Attribute codeType="2" code="8" checkAttVal="1">
+            <oneAttribute fLastValue="1" fStatus="0" fPastObj="0" format="%.3f" formatTime="6" ctrlParName="15ТТГС3" beginIndx="0" fTime="0">
+                <ParToValue parName="15ТТГС3" fInclude="4" vLeft="0" vRight="0" type="1"/>
+            </oneAttribute>
+        </Attribute>
+    </Object>
+    <Object type="4" objID="69129998" name="Поле_вывода">
+        <Attribute codeType="2" code="8" checkAttVal="1">
+            <oneAttribute fLastValue="1" fStatus="0" fPastObj="0" format="%.3f" formatTime="6" ctrlParName="15ТТП7" beginIndx="0" fTime="0">
+                <ParToValue parName="15ТТП7" fInclude="4" vLeft="0" vRight="0" type="1"/>
+            </oneAttribute>
+        </Attribute>
+    </Object>
+    <Object type="4" objID="69228351" name="Поле_вывода">
+        <Attribute codeType="2" code="8" checkAttVal="1">
+            <oneAttribute fLastValue="1" fStatus="0" fPastObj="0" format="%.3f" formatTime="6" ctrlParName="15ТТЭП4" beginIndx="0" fTime="0">
+                <ParToValue parName="15ТТЭП4" fInclude="4" vLeft="0" vRight="0" type="1"/>
+            </oneAttribute>
+        </Attribute>
+    </Object>
+    <Object type="4" objID="73708866" name="Поле_вывода">
+        <Attribute codeType="2" code="8" checkAttVal="1">
+            <oneAttribute fLastValue="1" fStatus="0" fPastObj="0" format="%.3f" formatTime="6" ctrlParName="15ТРПТ10" beginIndx="0" fTime="0">
+                <ParToValue parName="15ТРПТ10" fInclude="4" vLeft="0" vRight="0" type="1"/>
+            </oneAttribute>
+        </Attribute>
+    </Object>
+    <Object type="4" objID="74184979" name="Поле_вывода">
+        <Attribute codeType="2" code="8" checkAttVal="1">
+            <oneAttribute fLastValue="1" fStatus="0" fPastObj="0" format="%.3f" formatTime="6" ctrlParName="51Т1ТП6" beginIndx="0" fTime="0">
+                <ParToValue parName="51Т1ТП6" fInclude="4" vLeft="0" vRight="0" type="1"/>
+            </oneAttribute>
+        </Attribute>
+    </Object>
+    <Object type="4" objID="74341403" name="Поле_вывода">
+        <Attribute codeType="2" code="8" checkAttVal="1">
+            <oneAttribute fLastValue="1" fStatus="0" fPastObj="0" format="%.3f" formatTime="6" ctrlParName="15ТТФУЛ5" beginIndx="0" fTime="0">
+                <ParToValue parName="15ТТФУЛ5" fInclude="4" vLeft="0" vRight="0" type="1"/>
+            </oneAttribute>
+        </Attribute>
+    </Object>
+    <Object type="4" objID="74882540" name="Поле_вывода">
+        <Attribute codeType="2" code="8" checkAttVal="1">
+            <oneAttribute fLastValue="1" fStatus="0" fPastObj="0" format="%.3f" formatTime="6" ctrlParName="51Т2ТП7" beginIndx="0" fTime="0">
+                <ParToValue parName="51Т2ТП7" fInclude="4" vLeft="0" vRight="0" type="1"/>
+            </oneAttribute>
+        </Attribute>
+    </Object>
+    <Object type="4" objID="74939123" name="Поле_вывода">
+        <Attribute codeType="2" code="8" checkAttVal="1">
+            <oneAttribute fLastValue="1" fStatus="0" fPastObj="0" format="%.3f" formatTime="6" ctrlParName="15ТТФУЛ6" beginIndx="0" fTime="0">
+                <ParToValue parName="15ТТФУЛ6" fInclude="4" vLeft="0" vRight="0" type="1"/>
+            </oneAttribute>
+        </Attribute>
+    </Object>
+    <Object type="4" objID="74536450" name="Поле_вывода">
+        <Attribute codeType="2" code="8" checkAttVal="1">
+            <oneAttribute fLastValue="1" fStatus="0" fPastObj="0" format="%.3f" formatTime="6" ctrlParName="51ТПЭН4" beginIndx="0" fTime="0">
+                <ParToValue parName="51ТПЭН4" fInclude="4" vLeft="0" vRight="0" type="1"/>
+            </oneAttribute>
+        </Attribute>
+    </Object>
+    <Object type="4" objID="74499586" name="Поле_вывода">
+        <Attribute codeType="2" code="8" checkAttVal="1">
+            <oneAttribute fLastValue="1" fStatus="0" fPastObj="0" format="%.3f" formatTime="6" ctrlParName="15ТРПТ9" beginIndx="0" fTime="0">
+                <ParToValue parName="15ТРПТ9" fInclude="4" vLeft="0" vRight="0" type="1"/>
+            </oneAttribute>
+        </Attribute>
+    </Object>
+    <Object type="4" objID="39754432" name="Поле_вывода">
+        <Attribute codeType="2" code="8" checkAttVal="1">
+            <oneAttribute fLastValue="1" fStatus="0" fPastObj="0" format="%.3f" formatTime="6" ctrlParName="51ДП2" beginIndx="0" fTime="0">
+                <ParToValue parName="51ДП2" fInclude="4" vLeft="0" vRight="0" type="1"/>
+            </oneAttribute>
+        </Attribute>
+    </Object>
+    <Object type="4" objID="39830581" name="Поле_вывода">
+        <Attribute codeType="2" code="8" checkAttVal="1">
+            <oneAttribute fLastValue="1" fStatus="0" fPastObj="0" format="%.3f" formatTime="6" ctrlParName="51ТДТ8" beginIndx="0" fTime="0">
+                <ParToValue parName="51ТДТ8" fInclude="4" vLeft="0" vRight="0" type="1"/>
+            </oneAttribute>
+        </Attribute>
+    </Object>
+    <Object type="4" objID="39869579" name="Поле_вывода">
+        <Attribute codeType="2" code="8" checkAttVal="1">
+            <oneAttribute fLastValue="1" fStatus="0" fPastObj="0" format="%.3f" formatTime="6" ctrlParName="51ТРТО1" beginIndx="0" fTime="0">
+                <ParToValue parName="51ТРТО1" fInclude="4" vLeft="0" vRight="0" type="1"/>
+            </oneAttribute>
+        </Attribute>
+    </Object>
+    <Object type="4" objID="39707671" name="Поле_вывода">
+        <Attribute codeType="2" code="8" checkAttVal="1">
+            <oneAttribute fLastValue="1" fStatus="0" fPastObj="0" format="%.3f" formatTime="6" ctrlParName="31ТСОТР" beginIndx="0" fTime="0">
+                <ParToValue parName="31ТСОТР" fInclude="4" vLeft="0" vRight="0" type="1"/>
+            </oneAttribute>
+        </Attribute>
+    </Object>
+    <Object type="4" objID="67556822" name="Поле_вывода">
+        <Attribute codeType="2" code="8" checkAttVal="1">
+            <oneAttribute fLastValue="1" fStatus="0" fPastObj="0" format="%.3f" formatTime="6" ctrlParName="51ТРТО2" beginIndx="0" fTime="0">
+                <ParToValue parName="51ТРТО2" fInclude="4" vLeft="0" vRight="0" type="1"/>
+            </oneAttribute>
+        </Attribute>
+    </Object>
+    <Object type="4" objID="67977866" name="Поле_вывода">
+        <Attribute codeType="2" code="8" checkAttVal="1">
+            <oneAttribute fLastValue="1" fStatus="0" fPastObj="0" format="%.3f" formatTime="6" ctrlParName="51ТСМ3" beginIndx="0" fTime="0">
+                <ParToValue parName="51ТСМ3" fInclude="4" vLeft="0" vRight="0" type="1"/>
+            </oneAttribute>
+        </Attribute>
+    </Object>
+    <Object type="4" objID="67764424" name="Поле_вывода">
+        <Attribute codeType="2" code="8" checkAttVal="1">
+            <oneAttribute fLastValue="1" fStatus="0" fPastObj="0" format="%.3f" formatTime="6" ctrlParName="51ТТГС5" beginIndx="0" fTime="0">
+                <ParToValue parName="51ТТГС5" fInclude="4" vLeft="0" vRight="0" type="1"/>
+            </oneAttribute>
+        </Attribute>
+    </Object>
+    <Object type="4" objID="39603034" name="Поле_вывода">
+        <Attribute codeType="2" code="8" checkAttVal="1">
+            <oneAttribute fLastValue="1" fStatus="0" fPastObj="0" format="%.3f" formatTime="6" ctrlParName="51ДД1" beginIndx="0" fTime="0">
+                <ParToValue parName="51ДД1" fInclude="4" vLeft="0" vRight="0" type="1"/>
+            </oneAttribute>
+        </Attribute>
+    </Object>
+</FormInfo>

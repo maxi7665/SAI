@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XKnBase version="5" name="СОТР">
+    <element folded="1" fNoUse="0" type="0" comment="" name="Система" fInherits="0">
+        <element folded="1" fNoUse="0" type="0" comment="" name="15ТКБКП8" fInherits="0">
+            <States>
+                <node valq="1" typeMem="1" log_expr="15ТКБКП8 > 35" name="ВышеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="15ТКБКП8 &lt; 5" name="НижеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="(15ТКБКП8  >= 5) &amp; (15ТКБКП8 &lt;= 35)" name="Норма" typeVar="0"/>
+            </States>
+        </element>
+        <element folded="0" fNoUse="0" type="0" comment="" name="15ТРПТ10" fInherits="0">
+            <States>
+                <node valq="1" typeMem="1" log_expr="15ТРПТ10 > 60" name="ВышеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="15ТРПТ10 &lt; 5" name="НижеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="(15ТРПТ10  >= 5) &amp; (15ТРПТ10 &lt;= 60)" name="Норма" typeVar="0"/>
+            </States>
+        </element>
+        <element folded="0" fNoUse="0" type="0" comment="" name="15ТРПТ9" fInherits="0">
+            <States>
+                <node valq="1" typeMem="1" log_expr="15ТРПТ9 > 60" name="ВышеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="15ТРПТ9 &lt; 5" name="НижеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="(15ТРПТ9  >= 5) &amp; (15ТРПТ9 &lt;= 60)" name="Норма" typeVar="0"/>
+            </States>
+        </element>
+        <element folded="0" fNoUse="0" type="0" comment="" name="15ТТГС3" fInherits="0">
+            <States>
+                <node valq="1" typeMem="1" log_expr="15ТТГС3 > 35" name="ВышеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="15ТТГС3 &lt; 5" name="НижеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="(15ТТГС3  >= 5) &amp; (15ТТГС3 &lt;= 35)" name="Норма" typeVar="0"/>
+            </States>
+        </element>
+        <element folded="0" fNoUse="0" type="0" comment="" name="15ТТП7" fInherits="0">
+            <States>
+                <node valq="1" typeMem="1" log_expr="15ТТП7 > 35" name="ВышеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="15ТТП7 &lt; 5" name="НижеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="(15ТТП7  >= 5) &amp; (15ТТП7 &lt;= 35)" name="Норма" typeVar="0"/>
+            </States>
+        </element>
+        <element folded="0" fNoUse="0" type="0" comment="" name="15ТТФУЛ5" fInherits="0">
+            <States>
+                <node valq="1" typeMem="1" log_expr="15ТТФУЛ5 > 35" name="ВышеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="15ТТФУЛ5 &lt; 5" name="НижеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="(15ТТФУЛ5  >= 5) &amp; (15ТТФУЛ5 &lt;= 35)" name="Норма" typeVar="0"/>
+            </States>
+        </element>
+        <element folded="0" fNoUse="0" type="0" comment="" name="15ТТФУЛ6" fInherits="0">
+            <States>
+                <node valq="1" typeMem="1" log_expr="15ТТФУЛ6 > 35" name="ВышеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="15ТТФУЛ6 &lt; 5" name="НижеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="(15ТТФУЛ6  >= 5) &amp; (15ТТФУЛ6 &lt;= 35)" name="Норма" typeVar="0"/>
+            </States>
+        </element>
+        <element folded="0" fNoUse="0" type="0" comment="" name="15ТТЭП4" fInherits="0">
+            <States>
+                <node valq="1" typeMem="1" log_expr="15ТТЭП4 > 35" name="ВышеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="15ТТЭП4 &lt; 5" name="НижеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="(15ТТЭП4  >= 5) &amp; (15ТТЭП4 &lt;= 35)" name="Норма" typeVar="0"/>
+            </States>
+        </element>
+        <element folded="0" fNoUse="0" type="0" comment="" name="31ТСОТР" fInherits="0">
+            <States>
+                <node valq="1" typeMem="1" log_expr="31ТСОТР > 40" name="ВышеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="31ТСОТР &lt; 0" name="НижеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="(31ТСОТР  >= 0) &amp; (31ТСОТР &lt;= 40)" name="Норма" typeVar="0"/>
+            </States>
+        </element>
+        <element folded="0" fNoUse="0" type="0" comment="" name="51ТТГС5" fInherits="0">
+            <States>
+                <node valq="1" typeMem="1" log_expr="51ТТГС5 > 40" name="ВышеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="51ТТГС5 &lt; 0" name="НижеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="(51ТТГС5  >= 0) &amp; (51ТТГС5 &lt;= 40)" name="Норма" typeVar="0"/>
+            </States>
+        </element>
+        <element folded="0" fNoUse="0" type="0" comment="" name="51ДД1" fInherits="0">
+            <States>
+                <node valq="1" typeMem="1" log_expr="51ДД1 > 2007" name="ВышеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="51ДД1 &lt; 0" name="НижеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="(51ДД1  >= 0) &amp; (51ДД1 &lt;= 2007)" name="Норма" typeVar="0"/>
+            </States>
+        </element>
+        <element folded="0" fNoUse="0" type="0" comment="" name="51ДП2" fInherits="0">
+            <States>
+                <node valq="1" typeMem="1" log_expr="51ДП2 > 1" name="ВышеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="51ДП2 &lt; 0" name="НижеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="(51ДП2  >= 0) &amp; (51ДП2 &lt;= 1)" name="Норма" typeVar="0"/>
+            </States>
+        </element>
+        <element folded="0" fNoUse="0" type="0" comment="" name="51Т1ТП6" fInherits="0">
+            <States>
+                <node valq="1" typeMem="1" log_expr="51Т1ТП6 > 40" name="ВышеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="51Т1ТП6 &lt; 0" name="НижеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="(51Т1ТП6  >= 0) &amp; (51Т1ТП6 &lt;= 40)" name="Норма" typeVar="0"/>
+            </States>
+        </element>
+        <element folded="0" fNoUse="0" type="0" comment="" name="51Т2ТП7" fInherits="0">
+            <States>
+                <node valq="1" typeMem="1" log_expr="51Т2ТП7 > 40" name="ВышеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="51Т2ТП7 &lt; 0" name="НижеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="(51Т2ТП7  >= 0) &amp; (51Т2ТП7 &lt;= 40)" name="Норма" typeVar="0"/>
+            </States>
+        </element>
+        <element folded="0" fNoUse="0" type="0" comment="" name="51ТДТ8" fInherits="0">
+            <States>
+                <node valq="1" typeMem="1" log_expr="51ТДТ8 > 40" name="ВышеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="51ТДТ8 &lt; 0" name="НижеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="(51ТДТ8  >= 0) &amp; (51ТДТ8 &lt;= 40)" name="Норма" typeVar="0"/>
+            </States>
+        </element>
+        <element folded="0" fNoUse="0" type="0" comment="" name="51ТПЭН4" fInherits="0">
+            <States>
+                <node valq="1" typeMem="1" log_expr="51ТПЭН4 > 40" name="ВышеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="51ТПЭН4 &lt; 0" name="НижеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="(51ТПЭН4  >= 0) &amp; (51ТПЭН4 &lt;= 40)" name="Норма" typeVar="0"/>
+            </States>
+        </element>
+        <element folded="0" fNoUse="0" type="0" comment="" name="51ТРТО1" fInherits="0">
+            <States>
+                <node valq="1" typeMem="1" log_expr="51ТРТО1 > 40" name="ВышеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="51ТРТО1 &lt; 0" name="НижеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="(51ТРТО1  >= 0) &amp; (51ТРТО1 &lt;= 40)" name="Норма" typeVar="0"/>
+            </States>
+        </element>
+        <element folded="0" fNoUse="0" type="0" comment="" name="51ТРТО2" fInherits="0">
+            <States>
+                <node valq="1" typeMem="1" log_expr="51ТРТО2 > 40" name="ВышеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="51ТРТО2 &lt; 0" name="НижеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="(51ТРТО2  >= 0) &amp; (51ТРТО2 &lt;= 40)" name="Норма" typeVar="0"/>
+            </States>
+        </element>
+        <element folded="0" fNoUse="0" type="0" comment="" name="51ТСМ3" fInherits="0">
+            <States>
+                <node valq="1" typeMem="1" log_expr="51ТСМ3 > 40" name="ВышеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="51ТСМ3 &lt; 0" name="НижеНормы" typeVar="0"/>
+                <node valq="1" typeMem="1" log_expr="(51ТСМ3  >= 0) &amp; (51ТСМ3 &lt;= 40)" name="Норма" typeVar="0"/>
+            </States>
+        </element>
+    </element>
+</XKnBase>

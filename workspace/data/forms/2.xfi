@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FormInfo version="3.0" X="0" Y="0" isComposable="0" template="form_1" name="form_2">
+    <AccordingMap/>
+    <Object type="13" objID="65119537" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="65743532" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="65800775" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="66925551" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="67106266" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="41215941" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="41250669" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="41281840" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="41300572" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="41309224" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="41729154" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="41750509" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="41778906" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="41825122" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="41943365" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="42060656" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+    <Object type="13" objID="42294149" name="Линия">
+        <Attribute codeType="8" code="502" checkAttVal="1"/>
+    </Object>
+</FormInfo>

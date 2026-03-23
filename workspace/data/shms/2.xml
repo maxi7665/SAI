@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<XShm version="1.0" name="СОТР" isModify="0" showOutVar="1">
+    <LocalVars/>
+    <InVars/>
+    <OutVars/>
+    <Operators>
+        <Operator width="800" x="10" y="0" height="14" id="1" comment="Система" label="1" opcode="-1"/>
+        <Operator width="800" x="10" y="30" height="14" id="2" comment="Система.15ТКБКП8" label="2" opcode="-1"/>
+        <Operator width="800" x="10" y="60" height="14" id="3" comment="Система.15ТРПТ10" label="3" opcode="-1"/>
+        <Operator width="800" x="10" y="90" height="14" id="4" comment="Система.15ТРПТ9" label="4" opcode="-1"/>
+        <Operator width="800" x="10" y="120" height="14" id="5" comment="Система.15ТТГС3" label="5" opcode="-1"/>
+        <Operator width="800" x="10" y="150" height="14" id="6" comment="Система.15ТТП7" label="6" opcode="-1"/>
+        <Operator width="800" x="10" y="180" height="14" id="7" comment="Система.15ТТФУЛ5" label="7" opcode="-1"/>
+        <Operator width="800" x="10" y="210" height="14" id="8" comment="Система.15ТТФУЛ6" label="8" opcode="-1"/>
+        <Operator width="800" x="10" y="240" height="14" id="9" comment="Система.15ТТЭП4" label="9" opcode="-1"/>
+        <Operator width="800" x="10" y="270" height="14" id="10" comment="Система.31ТСОТР" label="10" opcode="-1"/>
+        <Operator width="800" x="10" y="300" height="14" id="11" comment="Система.51ТТГС5" label="11" opcode="-1"/>
+        <Operator width="800" x="10" y="330" height="14" id="12" comment="Система.51ДД1" label="12" opcode="-1"/>
+        <Operator width="800" x="10" y="360" height="14" id="13" comment="Система.51ДП2" label="13" opcode="-1"/>
+        <Operator width="800" x="10" y="390" height="14" id="14" comment="Система.51Т1ТП6" label="14" opcode="-1"/>
+        <Operator width="800" x="10" y="420" height="14" id="15" comment="Система.51Т2ТП7" label="15" opcode="-1"/>
+        <Operator width="800" x="10" y="450" height="14" id="16" comment="Система.51ТДТ8" label="16" opcode="-1"/>
+        <Operator width="800" x="10" y="480" height="14" id="17" comment="Система.51ТПЭН4" label="17" opcode="-1"/>
+        <Operator width="800" x="10" y="510" height="14" id="18" comment="Система.51ТРТО1" label="18" opcode="-1"/>
+        <Operator width="800" x="10" y="540" height="14" id="19" comment="Система.51ТРТО2" label="19" opcode="-1"/>
+        <Operator width="800" x="10" y="570" height="14" id="20" comment="Система.51ТСМ3" label="20" opcode="-1"/>
+    </Operators>
+</XShm>

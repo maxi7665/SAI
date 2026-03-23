@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImitatorProfile>
+    <Settings program="" mode="0" IncTime="1" etalonDBPath="" BeginTime="01.01.2000 00:00:00.000" FreqTime="00:00:01.000" fAddTime="0"/>
+    <Params>
+        <Par formula="" name="15ТКБКП8" fParVar="0"/>
+        <Par formula="" name="15ТРПТ10" fParVar="0"/>
+        <Par formula="" name="15ТРПТ9" fParVar="0"/>
+        <Par formula="" name="15ТТГС3" fParVar="0"/>
+        <Par formula="" name="15ТТП7" fParVar="0"/>
+        <Par formula="" name="15ТТФУЛ5" fParVar="0"/>
+        <Par formula="" name="15ТТФУЛ6" fParVar="0"/>
+        <Par formula="" name="15ТТЭП4" fParVar="0"/>
+        <Par formula="" name="31ТСОТР" fParVar="0"/>
+        <Par formula="" name="51ТТГС5" fParVar="0"/>
+        <Par formula="" name="51ДД1" fParVar="0"/>
+        <Par formula="" name="51ДП2" fParVar="0"/>
+        <Par formula="" name="51Т1ТП6" fParVar="0"/>
+        <Par formula="" name="51Т2ТП7" fParVar="0"/>
+        <Par formula="" name="51ТДТ8" fParVar="0"/>
+        <Par formula="" name="51ТПЭН4" fParVar="0"/>
+        <Par formula="" name="51ТРТО1" fParVar="0"/>
+        <Par formula="" name="51ТРТО2" fParVar="0"/>
+        <Par formula="" name="51ТСМ3" fParVar="0"/>
+    </Params>
+</ImitatorProfile>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GuiStates version="2.0">
+     <object type="4" objID="67556822" name="Поле_вывода">
+          <state fAllVal="0" name="СОТР~Система.51ТРТО2.ВышеНормы" knb_states="СОТР~Система.51ТРТО2.ВышеНормы">
+               <property templateName="" type_att="3" value="4294901760" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.51ТРТО2.НижеНормы" knb_states="СОТР~Система.51ТРТО2.НижеНормы">
+               <property templateName="" type_att="3" value="4278190335" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.51ТРТО2.Норма" knb_states="СОТР~Система.51ТРТО2.Норма">
+               <property templateName="" type_att="3" value="4278190080" code="2" isParVar="no"/>
+          </state>
+     </object>
+     <object type="4" objID="67764424" name="Поле_вывода">
+          <state fAllVal="0" name="СОТР~Система.51ТТГС5.ВышеНормы" knb_states="СОТР~Система.51ТТГС5.ВышеНормы">
+               <property templateName="" type_att="3" value="4294901760" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.51ТТГС5.НижеНормы" knb_states="СОТР~Система.51ТТГС5.НижеНормы">
+               <property templateName="" type_att="3" value="4278190335" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.51ТТГС5.Норма" knb_states="СОТР~Система.51ТТГС5.Норма">
+               <property templateName="" type_att="3" value="4278190080" code="2" isParVar="no"/>
+          </state>
+     </object>
+     <object type="4" objID="67977866" name="Поле_вывода">
+          <state fAllVal="0" name="СОТР~Система.51ТСМ3.ВышеНормы" knb_states="СОТР~Система.51ТСМ3.ВышеНормы">
+               <property templateName="" type_att="3" value="4294901760" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.51ТСМ3.НижеНормы" knb_states="СОТР~Система.51ТСМ3.НижеНормы">
+               <property templateName="" type_att="3" value="4278190335" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.51ТСМ3.Норма" knb_states="СОТР~Система.51ТСМ3.Норма">
+               <property templateName="" type_att="3" value="4278190080" code="2" isParVar="no"/>
+          </state>
+     </object>
+     <object type="4" objID="68909092" name="Поле_вывода">
+          <state fAllVal="0" name="СОТР~Система.15ТКБКП8.ВышеНормы" knb_states="СОТР~Система.15ТКБКП8.ВышеНормы">
+               <property templateName="" type_att="3" value="4294901760" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.15ТКБКП8.НижеНормы" knb_states="СОТР~Система.15ТКБКП8.НижеНормы">
+               <property templateName="" type_att="3" value="4278190335" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.15ТКБКП8.Норма" knb_states="СОТР~Система.15ТКБКП8.Норма">
+               <property templateName="" type_att="3" value="4278190080" code="2" isParVar="no"/>
+          </state>
+     </object>
+     <object type="4" objID="68920169" name="Поле_вывода">
+          <state fAllVal="0" name="СОТР~Система.15ТТГС3.ВышеНормы" knb_states="СОТР~Система.15ТТГС3.ВышеНормы">
+               <property templateName="" type_att="3" value="4294901760" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.15ТТГС3.НижеНормы" knb_states="СОТР~Система.15ТТГС3.НижеНормы">
+               <property templateName="" type_att="3" value="4278190335" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.15ТТГС3.Норма" knb_states="СОТР~Система.15ТТГС3.Норма">
+               <property templateName="" type_att="3" value="4278190080" code="2" isParVar="no"/>
+          </state>
+     </object>
+     <object type="4" objID="69129998" name="Поле_вывода">
+          <state fAllVal="0" name="СОТР~Система.15ТТП7.ВышеНормы" knb_states="СОТР~Система.15ТТП7.ВышеНормы">
+               <property templateName="" type_att="3" value="4294901760" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.15ТТП7.НижеНормы" knb_states="СОТР~Система.15ТТП7.НижеНормы">
+               <property templateName="" type_att="3" value="4278190335" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.15ТТП7.Норма" knb_states="СОТР~Система.15ТТП7.Норма">
+               <property templateName="" type_att="3" value="4278190080" code="2" isParVar="no"/>
+          </state>
+     </object>
+     <object type="4" objID="69228351" name="Поле_вывода">
+          <state fAllVal="0" name="СОТР~Система.15ТТЭП4.ВышеНормы" knb_states="СОТР~Система.15ТТЭП4.ВышеНормы">
+               <property templateName="" type_att="3" value="4294901760" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.15ТТЭП4.НижеНормы" knb_states="СОТР~Система.15ТТЭП4.НижеНормы">
+               <property templateName="" type_att="3" value="4278190335" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.15ТТЭП4.Норма" knb_states="СОТР~Система.15ТТЭП4.Норма">
+               <property templateName="" type_att="3" value="4278190080" code="2" isParVar="no"/>
+          </state>
+     </object>
+     <object type="4" objID="73708866" name="Поле_вывода">
+          <state fAllVal="0" name="СОТР~Система.15ТРПТ10.ВышеНормы" knb_states="СОТР~Система.15ТРПТ10.ВышеНормы">
+               <property templateName="" type_att="3" value="4294901760" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.15ТРПТ10.НижеНормы" knb_states="СОТР~Система.15ТРПТ10.НижеНормы">
+               <property templateName="" type_att="3" value="4278190335" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.15ТРПТ10.Норма" knb_states="СОТР~Система.15ТРПТ10.Норма">
+               <property templateName="" type_att="3" value="4278190080" code="2" isParVar="no"/>
+          </state>
+     </object>
+     <object type="4" objID="74184979" name="Поле_вывода">
+          <state fAllVal="0" name="СОТР~Система.51Т1ТП6.ВышеНормы" knb_states="СОТР~Система.51Т1ТП6.ВышеНормы">
+               <property templateName="" type_att="3" value="4294901760" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.51Т1ТП6.НижеНормы" knb_states="СОТР~Система.51Т1ТП6.НижеНормы">
+               <property templateName="" type_att="3" value="4278190335" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.51Т1ТП6.Норма" knb_states="СОТР~Система.51Т1ТП6.Норма">
+               <property templateName="" type_att="3" value="4278190080" code="2" isParVar="no"/>
+          </state>
+     </object>
+     <object type="4" objID="74341403" name="Поле_вывода">
+          <state fAllVal="0" name="СОТР~Система.15ТТФУЛ5.ВышеНормы" knb_states="СОТР~Система.15ТТФУЛ5.ВышеНормы">
+               <property templateName="" type_att="3" value="4294901760" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.15ТТФУЛ5.НижеНормы" knb_states="СОТР~Система.15ТТФУЛ5.НижеНормы">
+               <property templateName="" type_att="3" value="4278190335" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.15ТТФУЛ5.Норма" knb_states="СОТР~Система.15ТТФУЛ5.Норма">
+               <property templateName="" type_att="3" value="4278190080" code="2" isParVar="no"/>
+          </state>
+     </object>
+     <object type="4" objID="74499586" name="Поле_вывода">
+          <state fAllVal="0" name="СОТР~Система.15ТРПТ9.ВышеНормы" knb_states="СОТР~Система.15ТРПТ9.ВышеНормы">
+               <property templateName="" type_att="3" value="4294901760" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.15ТРПТ9.НижеНормы" knb_states="СОТР~Система.15ТРПТ9.НижеНормы">
+               <property templateName="" type_att="3" value="4278190335" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.15ТРПТ9.Норма" knb_states="СОТР~Система.15ТРПТ9.Норма">
+               <property templateName="" type_att="3" value="4278190080" code="2" isParVar="no"/>
+          </state>
+     </object>
+     <object type="4" objID="74536450" name="Поле_вывода">
+          <state fAllVal="0" name="СОТР~Система.51ТПЭН4.ВышеНормы" knb_states="СОТР~Система.51ТПЭН4.ВышеНормы">
+               <property templateName="" type_att="3" value="4294901760" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.51ТПЭН4.НижеНормы" knb_states="СОТР~Система.51ТПЭН4.НижеНормы">
+               <property templateName="" type_att="3" value="4278190335" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.51ТПЭН4.Норма" knb_states="СОТР~Система.51ТПЭН4.Норма">
+               <property templateName="" type_att="3" value="4278190080" code="2" isParVar="no"/>
+          </state>
+     </object>
+     <object type="4" objID="74882540" name="Поле_вывода">
+          <state fAllVal="0" name="СОТР~Система.51Т2ТП7.ВышеНормы" knb_states="СОТР~Система.51Т2ТП7.ВышеНормы">
+               <property templateName="" type_att="3" value="4294901760" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.51Т2ТП7.НижеНормы" knb_states="СОТР~Система.51Т2ТП7.НижеНормы">
+               <property templateName="" type_att="3" value="4278190335" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.51Т2ТП7.Норма" knb_states="СОТР~Система.51Т2ТП7.Норма">
+               <property templateName="" type_att="3" value="4278190080" code="2" isParVar="no"/>
+          </state>
+     </object>
+     <object type="4" objID="74939123" name="Поле_вывода">
+          <state fAllVal="0" name="СОТР~Система.15ТТФУЛ6.ВышеНормы" knb_states="СОТР~Система.15ТТФУЛ6.ВышеНормы">
+               <property templateName="" type_att="3" value="4294901760" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.15ТТФУЛ6.НижеНормы" knb_states="СОТР~Система.15ТТФУЛ6.НижеНормы">
+               <property templateName="" type_att="3" value="4278190335" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.15ТТФУЛ6.Норма" knb_states="СОТР~Система.15ТТФУЛ6.Норма">
+               <property templateName="" type_att="3" value="4278190080" code="2" isParVar="no"/>
+          </state>
+     </object>
+     <object type="4" objID="39603034" name="Поле_вывода">
+          <state fAllVal="0" name="СОТР~Система.51ДД1.ВышеНормы" knb_states="СОТР~Система.51ДД1.ВышеНормы">
+               <property templateName="" type_att="3" value="4294901760" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.51ДД1.НижеНормы" knb_states="СОТР~Система.51ДД1.НижеНормы">
+               <property templateName="" type_att="3" value="4278190335" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.51ДД1.Норма" knb_states="СОТР~Система.51ДД1.Норма">
+               <property templateName="" type_att="3" value="4278190080" code="2" isParVar="no"/>
+          </state>
+     </object>
+     <object type="4" objID="39707671" name="Поле_вывода">
+          <state fAllVal="0" name="СОТР~Система.31ТСОТР.ВышеНормы" knb_states="СОТР~Система.31ТСОТР.ВышеНормы">
+               <property templateName="" type_att="3" value="4294901760" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.31ТСОТР.НижеНормы" knb_states="СОТР~Система.31ТСОТР.НижеНормы">
+               <property templateName="" type_att="3" value="4278190335" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.31ТСОТР.Норма" knb_states="СОТР~Система.31ТСОТР.Норма">
+               <property templateName="" type_att="3" value="4278190080" code="2" isParVar="no"/>
+          </state>
+     </object>
+     <object type="4" objID="39754432" name="Поле_вывода">
+          <state fAllVal="0" name="СОТР~Система.51ДП2.ВышеНормы" knb_states="СОТР~Система.51ДП2.ВышеНормы">
+               <property templateName="" type_att="3" value="4294901760" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.51ДП2.НижеНормы" knb_states="СОТР~Система.51ДП2.НижеНормы">
+               <property templateName="" type_att="3" value="4278190335" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.51ДП2.Норма" knb_states="СОТР~Система.51ДП2.Норма">
+               <property templateName="" type_att="3" value="4278190080" code="2" isParVar="no"/>
+          </state>
+     </object>
+     <object type="4" objID="39830581" name="Поле_вывода">
+          <state fAllVal="0" name="СОТР~Система.51ТДТ8.ВышеНормы" knb_states="СОТР~Система.51ТДТ8.ВышеНормы">
+               <property templateName="" type_att="3" value="4294901760" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.51ТДТ8.НижеНормы" knb_states="СОТР~Система.51ТДТ8.НижеНормы">
+               <property templateName="" type_att="3" value="4278190335" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.51ТДТ8.Норма" knb_states="СОТР~Система.51ТДТ8.Норма">
+               <property templateName="" type_att="3" value="4278190080" code="2" isParVar="no"/>
+          </state>
+     </object>
+     <object type="4" objID="39869579" name="Поле_вывода">
+          <state fAllVal="0" name="СОТР~Система.51ТРТО1.ВышеНормы" knb_states="СОТР~Система.51ТРТО1.ВышеНормы">
+               <property templateName="" type_att="3" value="4294901760" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.51ТРТО1.НижеНормы" knb_states="СОТР~Система.51ТРТО1.НижеНормы">
+               <property templateName="" type_att="3" value="4278190335" code="2" isParVar="no"/>
+          </state>
+          <state fAllVal="0" name="СОТР~Система.51ТРТО1.Норма" knb_states="СОТР~Система.51ТРТО1.Норма">
+               <property templateName="" type_att="3" value="4278190080" code="2" isParVar="no"/>
+          </state>
+     </object>
+</GuiStates>
